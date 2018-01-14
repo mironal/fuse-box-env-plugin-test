@@ -1,0 +1,16 @@
+{
+  "name": "fuse-box-test",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "node fuse.js"
+  },
+  "devDependencies": {
+    "fuse-box": "3.0.2",
+    "typescript": "2.6.2",
+    "uglify-es": "3.3.7",
+    "uglify-js": "3.3.7"
+  }
+}
